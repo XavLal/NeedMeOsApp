@@ -30,14 +30,29 @@ function createWindow () {
   // Thumbbar shortcuts
   mainWindow.setThumbarButtons([
     {
+      tooltip: 'Tableau de bord',
+      icon: path.join(__dirname, 'img/favicon.png'),
+      click () { mainWindow.loadURL('https://app.needme.fr/') }
+    },
+    {
       tooltip: 'Devis & Factures',
-      icon: path.join(__dirname, 'img/billing.jpg'),
-      click () { console.log('button1 clicked') }
-    }, {
+      icon: path.join(__dirname, 'img/billing.png'),
+      click () { mainWindow.loadURL('https://app.needme.fr/billing') }
+    },
+    {
       tooltip: 'Dossiers',
-      icon: path.join(__dirname, 'img/project.jpg'),
-      flags: ['enabled', 'dismissonclick'],
-      click () { console.log('button2 clicked.') }
+      icon: path.join(__dirname, 'img/project.png'),
+      click () { mainWindow.loadURL('https://app.needme.fr/projects') }
+    },
+    {
+      tooltip: 'Clients',
+      icon: path.join(__dirname, 'img/wallet.png'),
+      click () { mainWindow.loadURL('https://app.needme.fr/wallets') }
+    },
+    {
+      tooltip: 'Contacts',
+      icon: path.join(__dirname, 'img/contact.png'),
+      click () { mainWindow.loadURL('https://app.needme.fr/contacts') }
     }
   ])
 
