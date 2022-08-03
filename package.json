@@ -1,0 +1,31 @@
+{
+  "name": "needme",
+  "version": "1.0.0",
+  "description": "Gérez votre micro-entreprise facilement !",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/XavLal/NeedMeOsApp",
+  "keywords": [
+    "NeedMe",
+    "microentreprise",
+    "autoentreprise",
+    "micro-entreprise",
+    "micro-entrepreneur",
+    "auto-entrepreneur",
+    "auto-entreprise",
+    "micro",
+    "entreprise",
+    "freelance",
+    "devis",
+    "factures",
+    "urssaf",
+    "tva"
+  ],
+  "author": "NeedMe - Xavier Laligant",
+  "license": "GNU General Public Licence v3.0",
+  "devDependencies": {
+    "electron": "^19.0.9"
+  }
+}
