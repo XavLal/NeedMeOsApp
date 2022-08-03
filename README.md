@@ -7,4 +7,4 @@ This version will allow more user to use it and to find it on the stores.
 
 ## License
 
-[GNU General Public Licence v3.0](LICENSE.md)
+[CC0 1.0 (Public Domain)](LICENSE.md)
