@@ -26,6 +26,6 @@
   "author": "NeedMe - Xavier Laligant",
   "license": "GNU General Public Licence v3.0",
   "devDependencies": {
-    "electron": "^20.0.0"
+    "electron": "^24.0.0"
   }
 }
